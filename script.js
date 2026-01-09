@@ -1,35 +1,36 @@
 const characters = [
   {
     name: "Jin Kazama",
-    image: "images/jin.png",
+    image: "jin.png",
     story: "Jin Kazama is the main protagonist of Tekken. Born with the Devil Gene, he fights to control the darkness within him."
   },
   {
     name: "Kazuya Mishima",
-    image: "images/kazuya.jpg",
+    image: "kazuya.png",
     story: "Kazuya Mishima is driven by vengeance and power, embracing the Devil Gene to dominate his enemies."
   },
   {
     name: "Jun Kazama",
-    image: "images/jun.webp",
+    image: "jun.png",
     story: "Jun Kazama is a spiritual fighter who seeks to cleanse the Devil Gene rather than destroy it."
   },
   {
     name: "Asuka Kazama",
-    image: "images/asuka.jpg",
-    story: "Asuka Kazama is a strong-willed martial artist with spiritual powers. Though often carefree, she has a deep sense of justice and a fierce rivalry with Lili."
+    image: "asuka.png",
+    story: "Asuka Kazama is a strong-willed martial artist with spiritual powers and a fierce rivalry with Lili."
   },
   {
     name: "King",
-    image: "images/king.jpg",
+    image: "king.png",
     story: "King is a masked luchador who fights to protect orphans and uphold justice."
   },
   {
     name: "Hwoarang",
-    image: "images/hwoarang.jpg",
+    image: "hwoarang.png",
     story: "Hwoarang is a Taekwondo master and Jin Kazama’s rival, driven by pride and honor."
   }
 ];
+
 
 
 const container = document.getElementById("characters");
@@ -57,3 +58,4 @@ characters.forEach((char, index) => {
 
   container.appendChild(card);
 });
+
