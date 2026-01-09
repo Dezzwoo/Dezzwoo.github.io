@@ -6,27 +6,27 @@ const characters = [
   },
   {
     name: "Kazuya Mishima",
-    image: "kazuya.png",
+    image: "kazuya.jpg",
     story: "Kazuya Mishima is driven by vengeance and power, embracing the Devil Gene to dominate his enemies."
   },
   {
     name: "Jun Kazama",
-    image: "jun.png",
+    image: "jun.webp",
     story: "Jun Kazama is a spiritual fighter who seeks to cleanse the Devil Gene rather than destroy it."
   },
   {
     name: "Asuka Kazama",
-    image: "asuka.png",
+    image: "asuka.jpg",
     story: "Asuka Kazama is a strong-willed martial artist with spiritual powers and a fierce rivalry with Lili."
   },
   {
     name: "King",
-    image: "king.png",
+    image: "king.jpg",
     story: "King is a masked luchador who fights to protect orphans and uphold justice."
   },
   {
     name: "Hwoarang",
-    image: "hwoarang.png",
+    image: "hwoarang.jpg",
     story: "Hwoarang is a Taekwondo master and Jin Kazama’s rival, driven by pride and honor."
   }
 ];
@@ -58,4 +58,5 @@ characters.forEach((char, index) => {
 
   container.appendChild(card);
 });
+
 
